@@ -1,0 +1,45 @@
+body {
+  margin-top: 70px;
+  background: #333;
+  color: #fff;
+}
+h2 {
+  font-weight: 800;
+}
+.output {
+  background: #fff;
+  color: #000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+nav {
+  height: 80px;
+  background: #fff;
+  color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  padding: 0 40px;
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 0;
+}
